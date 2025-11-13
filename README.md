@@ -46,7 +46,7 @@ SkillUp/
 ## ▶️ Como Executar o Projeto
 
 ### 1. Restaurar dependências
-```bash
+
 dotnet restore
 
 A API será iniciada em:
