@@ -49,7 +49,6 @@ SkillUp/
 ```bash
 dotnet restore
 
-
 A API será iniciada em:
 
 👉 **http://localhost:5081**
