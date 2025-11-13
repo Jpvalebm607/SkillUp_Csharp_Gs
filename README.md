@@ -103,7 +103,7 @@ Swagger disponível em:
 
 Assista à apresentação completa da solução no YouTube:
 
-👉 **[Clique aqui para ver o vídeo](COLE_O_LINK_AQUI)**  
+👉 **[Clique aqui para ver o vídeo](https://www.youtube.com/watch?v=PQnbezFZEPA)**  
 
 
 
