@@ -5,6 +5,14 @@ Projeto desenvolvido em **.NET 9 + Entity Framework Core + SQLite**, com estrutu
 
 ---
 
+## 👥 Integrantes do Grupo
+
+- **João Pedro Do Vale Cruz Novo** – RM **98650**
+- **Victor Eid Carbutti Nicolas** – RM **98668**
+- **Tiago Rafael Paulino Ferreira** – RM **551169**
+
+---
+
 ## 🔧 Tecnologias Utilizadas
 
 - **.NET 9**
@@ -87,21 +95,22 @@ Swagger disponível em:
 
 ---
 
-Se quiser, posso adicionar:
-
-✅ exemplos de request/response em JSON  
-✅ códigos de retorno (200, 201, 404, 500...)  
-✅ seção de autenticação (se tiver)  
-✅ tabelas separadas por serviço  
-
-É só pedir!
-
----
-
 
 ## 🧩 Fluxograma da Arquitetura
 
-![Fluxograma da Arquitetura](.C:\Users\jpval\Videos\Capturesfluxograma.png)
+![Fluxograma](https://github.com/user-attachments/assets/7b508b1c-8da5-4fd0-b2b1-fed2b7e8070a)
+
+---
+
+## 🎥 Demonstração em Vídeo
+
+Assista à apresentação completa da solução no YouTube:
+
+👉 **[Clique aqui para ver o vídeo](COLE_O_LINK_AQUI)**  
+
+
+
+
 
 
 
