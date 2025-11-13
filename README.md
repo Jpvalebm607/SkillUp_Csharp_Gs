@@ -1,0 +1,107 @@
+# 🚀 SkillUp API – Plataforma de Evolução Profissional  
+API desenvolvida para o projeto **SkillUp**, com objetivo de cadastrar usuários, registrar habilidades, associar cursos e gerar recomendações personalizadas.
+
+Projeto desenvolvido em **.NET 9 + Entity Framework Core + SQLite**, com estrutura em camadas (Api + Infrastructure).
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+- **.NET 9**
+- **ASP.NET Core Web API**
+- **Entity Framework Core 9**
+- **SQLite**
+- **Swagger / OpenAPI**
+- **Arquitetura em camadas (API + Infrastructure)**
+
+---
+
+## 📁 Estrutura do Projeto
+
+SkillUp/
+├── SkillUp.Api
+│ ├── Controllers
+│ ├── DTOs
+│ ├── Program.cs
+│ └── appsettings.json
+│
+├── SkillUp.Infrastructure
+│ ├── Data
+│ ├── Entities
+│ ├── Migrations
+│ └── Repositories
+│
+└── SkillUp.sln
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### 1. Restaurar dependências
+```bash
+dotnet restore
+
+---
+
+
+A API será iniciada em:
+
+👉 **http://localhost:5081**
+
+Swagger disponível em:
+
+👉 **http://localhost:5081/docs**
+
+---
+
+## 📌 Endpoints Principais
+
+### 👤 Usuários
+| Método | Endpoint | Descrição |
+|--------|-----------|-----------|
+| **POST** | `/api/v1.0/users` | Cria um novo usuário |
+| **GET** | `/api/v1.0/users/{id}` | Busca usuário pelo ID |
+
+---
+
+### 🎯 Habilidades (Skills)
+| Método | Endpoint | Descrição |
+|--------|-----------|-----------|
+| **POST** | `/api/v1.0/users/{id}/skills` | Adiciona uma skill ao usuário |
+| **PUT** | `/api/v1.0/users/{id}/skills/{skillId}` | Atualiza nível de uma skill existente |
+
+---
+
+### 📚 Cursos
+| Método | Endpoint | Descrição |
+|--------|-----------|-----------|
+| **GET** | `/api/v1.0/courses` | Lista todos os cursos disponíveis |
+| **POST** | `/api/v1.0/courses` | Adiciona um novo curso na plataforma |
+
+---
+
+### 🤖 Recomendações
+| Método | Endpoint | Descrição |
+|--------|-----------|-----------|
+| **GET** | `/api/v1.0/recommendations/{userId}` | Retorna cursos recomendados com base nas skills e objetivo do usuário |
+
+---
+
+Se quiser, posso adicionar:
+
+✅ exemplos de request/response em JSON  
+✅ códigos de retorno (200, 201, 404, 500...)  
+✅ seção de autenticação (se tiver)  
+✅ tabelas separadas por serviço  
+
+É só pedir!
+
+---
+
+
+## 🧩 Fluxograma da Arquitetura
+
+![Fluxograma da Arquitetura](.C:\Users\jpval\Videos\Capturesfluxograma.png)
+
+
+
