@@ -49,8 +49,6 @@ SkillUp/
 ```bash
 dotnet restore
 
----
-
 
 A API será iniciada em:
 
